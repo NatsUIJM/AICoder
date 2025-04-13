@@ -1,6 +1,6 @@
-# 最简单的Python环境配置方法
+# Python 运行环境配置方法
 
-该教程用于配置最基本的 Python 脚本运行环境，适用于 Windows 和 macOS。
+该教程用于配置最基本的Python脚本运行环境，适用于Windows和macOS。在执行本教程中的命令时，除非特别说明需要"关闭当前窗口并新开一个窗口再运行下一条命令"，否则你可以直接在同一个窗口中继续执行后续命令。当然，如果你选择为每条命令都开启新窗口也不会造成问题，只是没有这个必要。
 
 ## Windows
 1. 安装 Chocolatey
@@ -22,9 +22,7 @@
 	Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): 
 	```
 	3. 关闭窗口，再次右键点击开始菜单，选择"终端管理员"，然后输入`python --version`来验证安装是否成功。
-
-3. 配置 pip 镜像源
-	1. 继续运行以下命令：
+	4. 运行以下命令以
 	```powershell
 	pip config set global.index-url https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
 	```
